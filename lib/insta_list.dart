@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'insta_stories.dart';
+import 'like_button.dart';
 
 class InstaList extends StatelessWidget {
   @override
@@ -67,7 +68,7 @@ class InstaList extends StatelessWidget {
                       new Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: <Widget>[
-                          new Icon(FontAwesomeIcons.heart),
+                          LikeButtonContainer(),
                           new SizedBox(
                             width: 16.0,
                           ),
